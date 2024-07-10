@@ -13,7 +13,7 @@ const Navbar = () => {
                 <p>past meets present</p>
                 <ul>
                     <li>
-                        <Link to="/home">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
                         <Link to="/categories">Categories</Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </nav>
             <Routes>
-                <Route path="/home" element={<home />} />
+                <Route path="/"/>
                 <Route path="/categories" element={<Categories />} />
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signup" element={<SignUp />} />
